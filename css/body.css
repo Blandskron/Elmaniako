@@ -1,0 +1,153 @@
+header {
+    background-color: black;
+    width: 100%;
+    height: 150Px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_header {
+    padding: 20px;
+    width: 100px;
+}
+
+.logo_header:hover {
+    transform: scale(1.2); 
+    transition: all 1s; 
+}
+
+h1 {
+    color: #d4af37;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+h2 {
+    color: #d4af37;
+    font-weight: bolder;
+    font-size: large;
+}
+
+h3 {
+    margin-top: 50px;
+    color: #d4af37;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+h4 {
+    color: #d4af37;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.title_head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #54595F;
+}
+
+.body_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.playlist {
+    margin-top: 50px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+iframe {
+    width: 90%;
+    padding: 30px;
+}
+
+.video_seccion {
+    width: 100%;
+    margin-top: 50px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video {
+    width: 50%;
+}
+
+.biografia {
+    padding: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #2A2A28FC;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo_footer {
+    width: 100px;
+    padding: 50px;
+}
+
+.logo_footer:hover {
+    transform: scale(1.2); 
+    transition: all 1s; 
+}
+
+.copyright {
+    color: #d4af37;
+    padding: 50px;
+}
+
+p {
+    color: #d4af37;
+    text-align: center;
+    padding: 10px;
+}
+
+.social {
+    width: 40px;
+}
+
+.social:hover {
+    transform: scale(1.2); 
+    transition: all 1s; 
+}
+
+@media (max-width: 600px) {
+    .logo_header {
+        padding: 20px;
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    h2 {
+        display: none;
+    }
+
+}

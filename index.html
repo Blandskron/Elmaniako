@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="shortcut icon" href="img/logo.png">
+    <title>El Maniako</title>
+</head>
+<body>
+    <!--header-->
+    <header class="header">
+        <img class="logo_header" src="img/logo.png" alt="logo el maniako">
+        <div class="title_head" >
+            <h1>EL MANIAKO</h1>
+            <h2>the boost</h2>
+        </div>
+    </header>
+    <!--main-->
+    <div id="player">
+        <iframe videoId="xexlryyuMTY" width="560" height="315" src="https://www.youtube.com/embed/WeYC_tc6Ibo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <script>
+        var player;
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                videoId: 'xexlryyuMTY',
+                playerVars: {
+                    autoplay: 1,
+                    controls: 1,
+                    mute: 0,
+                    showinfo: 0,
+                    loop: 1
+                }
+            });
+        }
+        var tag = document.createElement('script');
+        tag.src = "//www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    </script>
+    <main class="body_info">
+        <div class="playlist">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5lwU7m62FDvwm2hnNxfStO?utm_source=generator&theme=0" width="100%" height="552" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+    </main>
+    <main class="video_seccion">
+        <div class="video">
+            <h3>EL MANIAKO</h3>
+            <h4>The Boost Presenta:</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bvQkQkZxv5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MckQok66Ef8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LeP-qd1am2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </main>
+    <main class="biografia_seccion">
+        <div class="biografia">
+            <h3>Biografia</h3>
+            <p>Andrés Jesús Landskron Silva, known as El Maniako The Boost, is a Chilean urban singer and songwriter who began his music career around 2008-2009. However, he created his YouTube channel in late 2014 with his first music video called "Música y Humo." <br>
+
+                It wasn't until 2020 when he founded the company FLYTEGANG with other artists, who gained recognition with the song "Yo Tengo un Ángel" and its remix, which has over 32 million views on YouTube. He also collaborated on the "Pasame la Botella" remix, which currently has over 22 million views on YouTube. <br>
+                
+                In February 2022, he signed a distribution contract with ONErpm. In November 2022, he traveled to Argentina to sign a publishing contract with Universal Argentina. <br>
+                
+                El Maniako has collaborated with several notable artists, including Calle Latina, Flor de Rap, Marcianeke, Bayron Fire, Balbi El Chamako, and Jairo Vera, among others. He is also part of the LNEDR album sponsored by Warner Music, featuring on the song "Amarre" with Flex Nigga. <br>
+                
+                On March 15, he released "Fuiste Luz" with Flor de Rap, which is being played on radio and all platforms. In just 10 days, the music video has nearly 40,000 views on YouTube and over 45,000 streams on Spotify.</p>
+            <br>
+            <h4>El Maniako:</h4>
+            <a href="pdf/ElManiakoTheBoost.pdf" download="ElManiakoTheBoost" target="_blank"><p>Download contract information here: El Maniako Booking</p></a>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <div>
+            <img class="logo_footer" src="img/logo.png" alt="logo el maniako">
+        </div>
+        <div class="footer_socialNetwork">
+            <a href="https://youtube.com/channel/UC4nEkbCl27q7ClSiZBAujtw"><img class="social" src="img/youtube.png" alt="youtube"></a>
+            <a href="https://instagram.com/elmaniako_oficial/"><img class="social" src="img/instagram.png" alt="instagram"></a>
+            <a href="https://m.facebook.com/ElManiakoTheBoost.Oficial/"><img class="social" src="img/facebook.png" alt="facebook"></a>
+            <a href="https://open.spotify.com/artist/5lwU7m62FDvwm2hnNxfStO?si=L0YbwqA_RT2FTVIEZ7rb8A&utm_source=copy-link"><img class="social" src="img/spotify.png" alt="spotify"></a>
+            <a href="https://vm.tiktok.com/ZM8EeMRpb/"><img class="social" src="img/tiktok.png" alt="tiktok"></a>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 El Maniako The Boost - Todos los derechos reservados.</p>
+        </div>
+    </footer>   
+</body>
+</html>
